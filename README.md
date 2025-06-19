@@ -1,2 +1,2 @@
-# CICD_social-media-app
-CI/CD Automation Project for Social Media Application (DevOps)
+# CICD_boardgamebd
+CI/CD Automation Project for Board Game DB Application (DevOps)
