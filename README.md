@@ -98,3 +98,4 @@ Refer to the `screenshots/` folder for:
 **Mahipal Singh Jhala**  
 📧 mahipalsinghjhala707@gmail.com  
 🔗 [GitHub](https://github.com/MahipalSinghJhala707)
+Board Game DB (https://github.com/MahipalSinghJhala707/devproject.git)
