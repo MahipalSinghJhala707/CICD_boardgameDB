@@ -43,12 +43,19 @@ This project implements a complete CI/CD pipeline using Jenkins, Docker, Trivy, 
 
 ## 🔒 Trivy Report Summary
 
-Example output:
+### 📦 Container Image (mahipalsinghjhala/devproject:latest – Ubuntu 20.04)
+- **Total Vulnerabilities:** 8
+- **Severity Breakdown:**
+  - LOW: 0
+  - MEDIUM: 8
+  - HIGH: 0
+  - CRITICAL: 0
 
-| Vulnerability ID | Severity | Package | Installed | Fixed | Description |
-|------------------|----------|---------|-----------|-------|-------------|
-| CVE-2021-12345   | HIGH     | openssl | 1.1.1f    | 1.1.1g| Buffer overflow issue |
-| CVE-2022-67890   | MEDIUM   | curl    | 7.58.0    | 7.64.0| Insecure redirect handling |
+### Example:
+| Library     | Vulnerability | Severity | Installed | Fixed | Description |
+|-------------|---------------|----------|-----------|-------|-------------|
+| libc-bin    | CVE-2025-4802 | MEDIUM   | 2.31-0ubuntu9.17 | 2.31-0ubuntu9.18 | glibc dlopen misuses LD_LIBRARY_PATH |
+| libsqlite3-0 | CVE-2025-29088 | MEDIUM  | 3.31.1-4ubuntu0.6 | 3.31.1-4ubuntu0.7 | SQLite DoS vulnerability |
 
 Full report available in `trivy-reports/trivy-report.json`
 
