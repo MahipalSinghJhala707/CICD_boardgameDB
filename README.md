@@ -12,8 +12,8 @@ This project implements a complete CI/CD pipeline using Jenkins, Docker, Trivy, 
 | 2        | Kubernetes Master Node |
 | 3        | Kubernetes Worker Node |
 | 4        | Prometheus, Grafana, Blackbox Exporter |
+---
 ![alt text](image.png)
-
 ---
 
 ## 🔁 Pipeline Workflow
